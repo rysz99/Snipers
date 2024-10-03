@@ -14,12 +14,12 @@ function zmien_slajd()
    numer5++; if(numer5>5) numer5=1;
    numer6++; if(numer6>4) numer6=1;
    
-   var plik = "<img src=\"./Grafika/wojtowicz"+numer+".jpeg\" />";
-   var plik2 = "<img src=\"./Grafika/kyle"+numer2+".jpeg\" />";
-   var plik3 = "<img src=\"./Grafika/pawliczenko"+numer3+".jpeg\" />";
-   var plik4 = "<img src=\"./Grafika/hetzenauer"+numer4+".jpeg\" />";
-   var plik5 = "<img src=\"./Grafika/hayha"+numer5+".jpeg\" />";
-   var plik6 = "<img src=\"./Grafika/zajcew"+numer6+".jpeg\" />";
+   var plik = "<img src=\"wojtowicz"+numer+".jpeg\" />";
+   var plik2 = "<img src=\"kyle"+numer2+".jpeg\" />";
+   var plik3 = "<img src=\"pawliczenko"+numer3+".jpeg\" />";
+   var plik4 = "<img src=\"hetzenauer"+numer4+".jpeg\" />";
+   var plik5 = "<img src=\"hayha"+numer5+".jpeg\" />";
+   var plik6 = "<img src=\"zajcew"+numer6+".jpeg\" />";
    
    document.getElementById("wojtowicz").innerHTML = plik;
    document.getElementById("kyle").innerHTML = plik2;
